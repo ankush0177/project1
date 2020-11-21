@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContinueActivity">
+
+
+    <EditText
+        android:id="@+id/E.T1"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="373dp"
+        android:gravity="center"
+        android:hint="Item Name"
+        android:soundEffectsEnabled="false" />
+
+    <EditText
+        android:id="@+id/ItemQty"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="311dp"
+        android:gravity="center"
+        android:hint="Quantity"
+        android:orientation="vertical"
+        android:singleLine="false" />
+
+    <Button
+
+        android:id="@+id/C1"
+        android:layout_width="249dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="242dp"
+        android:gravity="center"
+        android:text="Continue"/>
+
+
+
+
+</RelativeLayout>
