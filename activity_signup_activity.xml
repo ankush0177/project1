@@ -59,17 +59,6 @@
         android:fontFamily="@font/roboto_regular"
         android:inputType="textEmailAddress"
         android:textSize="15sp" />
-    <EditText
-        android:id="@+id/et_Phoneno"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:hint="Contact"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
-        android:padding="15dp"
-        android:fontFamily="@font/roboto_regular"
-        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/et_password"
@@ -106,8 +95,10 @@
             android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="42dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
             android:fontFamily="@font/roboto_regular"
